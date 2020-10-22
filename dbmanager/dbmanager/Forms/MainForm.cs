@@ -173,19 +173,39 @@ namespace dbmanager
             {
                 if (Properties.Settings.Default.LastBackup.Length <= 0)
                     Properties.Settings.Default.LastBackup = DateTime.Now.ToString();
-                tmAutoBackup.Enabled = true;
-                SaveProperties();
-                SetNextBackUp();
-                UpdateAutoBackupLabels();
+
+                if (Properties.Settings.Default.RunAutoBackUp.Equals("1"))
+                {
+                    tmAutoBackup.Enabled = true;
+                    SaveProperties();
+                    SetNextBackUp();
+                    UpdateAutoBackupLabels();
+                }
+                else
+                {
+                    MessageBox.Show("Cannot Continue. Please check if auto back up is enabled in the settings.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                
             }
             if (cbDelete.Checked)
             {
                 if (Properties.Settings.Default.LastDelete.Length <= 0)
                     Properties.Settings.Default.LastDelete = DateTime.Now.ToString();
-                tmAutoDelete.Enabled = true;
-                SaveProperties();
-                SetNextDelete();
-                UpdateAutoDeleteLabels();
+
+                if (Properties.Settings.Default.RunAutoDelete.Equals("1"))
+                {
+                    tmAutoDelete.Enabled = true;
+                    SaveProperties();
+                    SetNextDelete();
+                    UpdateAutoDeleteLabels();
+                }
+                else
+                {
+                    MessageBox.Show("Cannot Continue. Please check if auto delete up is enabled in the settings.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
             }
             cbBackup.Enabled = cbDelete.Enabled = false;
         }
