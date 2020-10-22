@@ -21,7 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DE3BA708C22848679EA73DBDBC1B557D"
+        "MsmKey" = "8:_8F658782BBEE4299BB8F2DDD4910E7FB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -34,13 +34,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2D5CFE97A73E23DAAC4DEED4174E9123"
+        "OwnerKey" = "8:_EAB1938DA2C348918DD70981C2DBBFDD"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EAB1938DA2C348918DD70981C2DBBFDD"
+        "OwnerKey" = "8:_2D5CFE97A73E23DAAC4DEED4174E9123"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -61,6 +61,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -77,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -137,9 +153,9 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DE3BA708C22848679EA73DBDBC1B557D"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8F658782BBEE4299BB8F2DDD4910E7FB"
             {
-            "SourcePath" = "8:..\\..\\..\\Downloads\\iconfinder_database_2955257.ico"
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\iconfinder_database_2955257.ico"
             "TargetName" = "8:iconfinder_database_2955257.ico"
             "Tag" = "8:"
             "Folder" = "8:_ADD8CB3782204CCEB6101D172C7634FF"
@@ -242,7 +258,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:_DE3BA708C22848679EA73DBDBC1B557D"
+        "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -345,7 +361,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3E67E07CC8074FA3AAC29C5A987ED70A"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_3295987C72AB4A27BBAF1B7010CE11AE"
             {
             "Name" = "8:Database Backup Manager"
             "Arguments" = "8:"
@@ -356,7 +372,7 @@
             "Target" = "8:_EAB1938DA2C348918DD70981C2DBBFDD"
             "Folder" = "8:_F547099D43514FEF9227335FD9A11011"
             "WorkingFolder" = "8:_ADD8CB3782204CCEB6101D172C7634FF"
-            "Icon" = "8:_DE3BA708C22848679EA73DBDBC1B557D"
+            "Icon" = "8:"
             "Feature" = "8:"
             }
         }
